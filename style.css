@@ -31,7 +31,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  height: 150vh;
+  height: 140vh;
   font-size: 1em;
 
   text-rendering: optimizeSpeed;
@@ -265,12 +265,12 @@ svg {
 
 /* mian section end */
 
-/* featured section section end */
+/* featured section section start */
 
 
 
 .featured-section {
-    margin-top: 2rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -292,6 +292,87 @@ svg {
 
 /* featured section section end */
 
+/* footer section start */
+
+footer{
+  background-color: rgb(47, 52, 80);
+  margin-top: 2rem;
+  height: max-content;
+  width: 100%;
+  padding-bottom: 1rem;
+  padding-inline: 1rem;
+}
+
+.c-r {
+  text-align: center;
+  margin-top: 4rem;
+  color: white;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-main > div {
+  margin-top: 4rem;
+}
+
+.ft-header {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+
+.ft-main h1 {
+  margin-bottom: 2rem;
+}
+
+.ft-main p {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  color: rgba(228, 228, 228, 0.784);
+}
+
+.ft-main input {
+  padding: 6px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.ft-nav h1 {
+  margin-bottom: 2rem;
+}
+
+.ft-nav ul li {
+  list-style: none;
+}
+
+.ft-nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.ft-contact h1 {
+  margin-bottom: 2rem;
+}
+
+.ft-contact P {
+  font-size: 18px;
+  color: white;
+}
+
+@media (max-width: 45em) {
+  .footer-main {
+    flex-direction: column;
+  }
+}
+
+/* footer section start */
+
 
 @media (min-width: 52em) {
     .grid-content {
@@ -312,3 +393,4 @@ svg {
         font-size: 1rem;
     }
 }
+
